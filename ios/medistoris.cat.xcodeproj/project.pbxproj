@@ -517,7 +517,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = spotifyclone/spotifyclone.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z388MS4JJ6;
+				DEVELOPMENT_TEAM = 6JRDA6VYL9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = spotifyclone/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = medistoris.cat;
@@ -525,7 +525,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -548,14 +548,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = spotifyclone/spotifyclone.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z388MS4JJ6;
+				DEVELOPMENT_TEAM = 6JRDA6VYL9;
 				INFOPLIST_FILE = spotifyclone/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = medistoris.cat;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -695,6 +695,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
