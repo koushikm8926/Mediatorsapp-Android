@@ -23,16 +23,20 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.964940426884-4eur9cr5llfma37hm50us70mhmctp52n</string>
+				<string>700246685418428</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>700246685418428</string>
+	<key>FacebookClientToken</key>
+	<string>48c8d386d30db73ec59fdf311fa3df0c</string>
+	<key>FacebookDisplayName</key>
+	<string>medistoriscat</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -48,21 +52,6 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
-	<key>CFBundleURLTypes</key>
-<array>
-  <dict>
-  <key>CFBundleURLSchemes</key>
-  <array>
-    <string>700246685418428</string>
-  </array>
-  </dict>
-</array>
-	<key>FacebookAppID</key>
-<string>700246685418428</string>
-<key>FacebookClientToken</key>
-<string>48c8d386d30db73ec59fdf311fa3df0c</string>
-<key>FacebookDisplayName</key>
-<string>medistoriscat</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
