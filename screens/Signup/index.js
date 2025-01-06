@@ -252,9 +252,7 @@ function SignupScreen({ navigation, route }) {
             política i acord d'usuari
           </Text>
         </View>
-        {/* <TouchableOpacity onPress={() => navigation.navigate('Politica')}>
-          <Text style={{color: COLORS.primary}}>Política de privacitat</Text>
-        </TouchableOpacity> */}
+      
 
         <Button
           title="Registra't"

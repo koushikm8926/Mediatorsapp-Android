@@ -64,31 +64,7 @@ const Main = ({ navigation }) => {
             style={styles.logoImg}
             resizeMode={"contain"}
           />
-          {/* <TouchableOpacity
-            style={styles.playPauseBtn}
-            onPress={async () => {
-              console.log("here");
-              console.log(playbackState);
-              console.log(playbackState);
-              console.log(State.Playing);
-              if (State.Playing == playbackState) {
-                await TrackPlayer.pause();
-              } else {
-                await TrackPlayer.skip(0);
-                await TrackPlayer.play();
-              }
-            }}
-          >
-            <Image
-              source={
-                State.Playing === playbackState
-                  ? require("../../src/images/pause2.webp")
-                  : require("../../src/images/play.webp")
-              }
-              style={styles.playPauseImg}
-              resizeMode={"contain"}
-            />
-          </TouchableOpacity> */}
+        
         </View>
         <View style={styles.boxContainer}>
           <TouchableOpacity
@@ -108,14 +84,7 @@ const Main = ({ navigation }) => {
               {/* <Text style={styles.boxText}>Històries ⚡️🎧 immersives</Text> */}
               <Text style={styles.boxText}>Històries immersives</Text>
               <View style={{ flexDirection: "row", marginTop: 5 }}>
-                {/* <Image
-                  source={require("../../src/images/flag-333.webp")}
-                  style={styles.flag}
-                />
-                <Image
-                  source={require("../../src/images/flag-777.webp")}
-                  style={styles.flag}
-                /> */}
+              
               </View>
             </View>
           </TouchableOpacity>
@@ -134,10 +103,7 @@ const Main = ({ navigation }) => {
             </View>
             <View>
               <Text style={styles.boxText}>Llegendes immersives</Text>
-              {/* <View style={{ flexDirection: "row", marginTop: 5 }}>
-                <Image source={flag333} style={styles.flag} />
-                <Image source={flag777} style={styles.flag} />
-              </View> */}
+            
             </View>
           </TouchableOpacity>
           <TouchableOpacity

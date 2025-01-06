@@ -117,13 +117,7 @@ export const songsList = [
 ];
 
 export const sliderSongs = [
-  // {
-  //   title: 'Manresa el misteri de la llum',
-  //   artist: 'Alba Subirà Fernández',
-  //   artwork: require('../images/Manresa_foto.jpg'),
-  //   url: require('../audios/newManresa.mp3'),
-  //   id: '7',
-  // },
+
 
   {
     title: "El Cant dels ocells",

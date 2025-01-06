@@ -72,21 +72,7 @@ export const signInWithGoogle = async () => {
   return auth().signInWithCredential(googleCredential);
 };
 
-// export const signInWithGoogle = async () => {
-//   try {
-//     await GoogleSignin.configure({
-//       webClientId:
-//         '964940426884-e18dsdv6f6j6cafgohnoi9lcmkvcln02.apps.googleusercontent.com',
-//     });
-//     const {idToken} = await GoogleSignin.signIn();
-//     const googleCredential = auth.GoogleAuthProvider.credential(idToken);
-//     const signedInUser = await auth().signInWithCredential(googleCredential);
-//     return signedInUser;
-//   } catch (error) {
-//     console.error('Error signing in with Google:', error);
-//     throw error; // Rethrow the error for the caller to handle
-//   }
-// };
+
 
 export async function onFacebookButtonPress() {
   // Attempt login with permissions

@@ -169,21 +169,6 @@ function LoginScreen({ navigation }) {
           </View>
         </View>
 
-        {/* <View
-          style={{
-            flexDirection: 'row',
-            marginVertical: 6,
-            alignItems: 'center',
-          }}>
-          <Checkbox
-            style={{marginRight: width(3), width: width(5), height: width(5)}}
-            onValueChange={setIsChecked}
-            value={isChecked}
-            color={isChecked ? COLORS.primary : undefined}
-          />
-
-          <Text>Recorda'm</Text>
-        </View> */}
 
         <View
           style={{
@@ -286,30 +271,7 @@ function LoginScreen({ navigation }) {
             </TouchableOpacity>
           )}
 
-          {/* 
-          <TouchableOpacity
-            onPress={() => loginWithFacebook()}
-            style={{
-              flex: 1,
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexDirection: 'row',
-              height: 52,
-              borderWidth: 1,
-              borderColor: COLORS.grey,
-              marginRight: 4,
-              borderRadius: 10,
-            }}>
-            <Image
-              source={require('../../src/images/facebook.webp')}
-              style={{
-                height: 36,
-                width: 36,
-                marginRight: 8,
-              }}
-              resizeMode="contain"
-            />
-          </TouchableOpacity> */}
+        
         </View>
 
         <View

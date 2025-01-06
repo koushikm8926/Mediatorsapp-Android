@@ -114,5 +114,4 @@ const App = () => {
 
 export default App;
 
-//'#a34c0d', '#592804', '#241001', '#000000'
-// Dummy comment
+

@@ -48,20 +48,7 @@ const CanconsPopulars = ({ navigation }) => {
 
   useEffect(() => {
     if (playbackState == State.Stopped && currentIndex >= 0) {
-      // const handlePlaybackTrackChanged = async (data) => {
-      //   if (data.nextTrack === undefined && data.position === data.duration) {
-      //     await TrackPlayer.seekTo(0);
-      //     // await TrackPlayer.play();
-
-      //     // setCurrentIndex(0);
-      //   } else if (data.nextTrack !== undefined) {
-      //     await TrackPlayer.seekTo(0);
-
-      //     await TrackPlayer.pause();
-
-      //     // setCurrentIndex(data.nextTrack);
-      //   }
-      // };
+    
 
       const setupPlayer = async () => {
         try {
@@ -92,20 +79,7 @@ const CanconsPopulars = ({ navigation }) => {
 
   useEffect(() => {
     if (currentIndex >= 0) {
-      // const handlePlaybackTrackChanged = async (data) => {
-      //   if (data.nextTrack === undefined && data.position === data.duration) {
-      //     await TrackPlayer.seekTo(0);
-      //     // await TrackPlayer.play();
-
-      //     // setCurrentIndex(0);
-      //   } else if (data.nextTrack !== undefined) {
-      //     await TrackPlayer.seekTo(0);
-
-      //     await TrackPlayer.pause();
-
-      //     // setCurrentIndex(data.nextTrack);
-      //   }
-      // };
+     
 
       const setupPlayer = async () => {
         try {
@@ -208,9 +182,7 @@ const CanconsPopulars = ({ navigation }) => {
                 paddingBottom: 10,
               }}
               onPress={async () => {
-                //  await TrackPlayer.pause();
-                //  await TrackPlayer.skip(index);
-                // await TrackPlayer.play();
+              
                 setCurrentIndex(index);
                 setIsVisible(true);
               }}
@@ -242,11 +214,7 @@ const CanconsPopulars = ({ navigation }) => {
                       marginTop: 5,
                     }}
                   >
-                    {/* <MaterialIcons
-                      name={"record-voice-over"}
-                      size={width(5.5)}
-                      color={"#ffffff"}
-                    /> */}
+                   
                     {item.flag && (
                       <Image
                         source={item.flag === "333" ? flag333 : flag777}

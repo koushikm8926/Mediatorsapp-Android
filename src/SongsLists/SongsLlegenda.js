@@ -2,7 +2,6 @@ export const songsList = [
   {
     title: "El Timbaler del Bruc",
     artist: "Medistoris",
-    //flag: '333',
     artwork: require("../images/timbaler4.webp"),
     url: require("../audios/Catalan_Timbaler.mp3"),
     id: "11",
@@ -11,7 +10,6 @@ export const songsList = [
   {
     title: "El Tamborilero del Bruc",
     artist: "Medistoris",
-    // flag: '777',
     artwork: require("../images/timbaler4.webp"),
     url: require("../audios/Cast_Timbaler.mp3"),
     id: "12",
@@ -20,7 +18,6 @@ export const songsList = [
   {
     title: "Manresa el misteri de la llum",
     artist: "Alba Subirà Fernández",
-    // flag: '333',
     artwork: require("../images/Manresa_foto_new.webp"),
     url: require("../audios/Manresa.mp3"),
     id: "13",
@@ -29,7 +26,6 @@ export const songsList = [
   {
     title: "La Llegenda de Sant Jordi",
     artist: "Octavi Pujades",
-    //  flag: '333',
     artwork: require("../images/jordi_new.jpeg"),
     url: require("../audios/santjordicatalan.mp3"),
     id: "14",
@@ -38,7 +34,6 @@ export const songsList = [
   {
     title: "La Leyenda de Sant Jordi",
     artist: "Octavi Pujades",
-    //  flag: '777',
     artwork: require("../images/jordi.jpeg"),
     url: require("../audios/newSanjordi_cast.mp3"),
     id: "15",

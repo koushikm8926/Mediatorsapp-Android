@@ -208,22 +208,11 @@ const LesDites = ({ navigation }) => {
                 paddingBottom: 10,
               }}
               onPress={async () => {
-                // await TrackPlayer.pause();
-                // await TrackPlayer.skip(index);
-                // setCurrentIndex(index);
-                // setIsVisible(true);
-
-                // await TrackPlayer.pause(); // Pause the currently playing song
-                // await TrackPlayer.skip(index); // Skip to the selected song
+             
                 setCurrentIndex(index); // Update the current index
                 setIsVisible(true); // Show the player component
 
-                // setShouldStartPlayer(true);
-                //  await TrackPlayer.pause();
-                //  await TrackPlayer.skip(index);
-                //  await TrackPlayer.play();
-                // setCurrentIndex(index);
-                // setIsVisible(true);
+             
               }}
               activeOpacity={1}
             >
@@ -253,11 +242,7 @@ const LesDites = ({ navigation }) => {
                       marginTop: 5,
                     }}
                   >
-                    {/* <MaterialIcons
-                      name={"record-voice-over"}
-                      size={width(5.5)}
-                      color={"#ffffff"}
-                    /> */}
+                   
                     {item.flag && (
                       <Image
                         source={item.flag === "333" ? flag333 : flag777}
