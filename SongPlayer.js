@@ -15,6 +15,8 @@ import TrackPlayer from "react-native-track-player";
 import { height, width } from "./src/constants/dimentions";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import { useNavigation } from "@react-navigation/native";
+
+
 import flag333 from "./src/images/flag-333.webp";
 import flag777 from "./src/images/flag-777.webp";
 
@@ -313,6 +315,10 @@ const SongPlayer = ({
               }}
             />
           </View>
+
+
+
+          
         </LinearGradient>
       </Modal>
     </View>

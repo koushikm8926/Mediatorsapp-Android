@@ -14,25 +14,20 @@ import ResetPassword from "./screens/ResetPassword";
 import { LogBox } from "react-native";
 import Privacy from "./screens/Privacy";
 import TrackPlayer, { Capability } from "react-native-track-player";
+
+
+
+
 LogBox.ignoreAllLogs();
 const Stack = createStackNavigator();
 
 const App = () => {
   const navRef = useRef(null);
-  // const getUserInfo = async () => {
-  //   if (auth().currentUser) {
-  //     const uid = auth()?.currentUser?.uid;
-  //     const res = await getData("Users", uid);
 
-  //     navRef.current?.navigate("Main");
-  //   }
-  // };
   useEffect(() => {
-    // getUserInfo();
+  
     setupPlayer();
-    // return () => {
-    //   auth().signOut()
-    // };
+   
   }, []);
 
   const setupPlayer = async () => {
